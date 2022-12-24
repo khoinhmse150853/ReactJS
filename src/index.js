@@ -5,7 +5,8 @@ import App from "./App";
 import RandomGift from "./RandomGift";
 // import TwoWayBinding from "./TwoWayBinding";
 // import RadioButton from "./RadioButton";
-import Checkbox from "./Checkbox";
+// import Checkbox from "./Checkbox";
+import TodoList from "./TodoList";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -15,7 +16,8 @@ root.render(
     <RandomGift />
     {/* <TwoWayBinding /> */}
     {/* <RadioButton /> */}
-    <Checkbox />
+    {/* <Checkbox /> */}
+    <TodoList />
   </React.StrictMode>
 );
 
