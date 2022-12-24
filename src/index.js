@@ -8,17 +8,19 @@ import RandomGift from "./StudyComponents/RandomGift";
 // import Checkbox from "./Checkbox";
 import TodoList from "./StudyComponents/TodoList";
 import reportWebVitals from "./reportWebVitals";
+import PreviewAvatar from "./StudyComponents/PreviewAvatar";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  <>
     <App />
     <RandomGift />
     {/* <TwoWayBinding /> */}
     {/* <RadioButton /> */}
     {/* <Checkbox /> */}
     <TodoList />
-  </React.StrictMode>
+    <PreviewAvatar />
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function

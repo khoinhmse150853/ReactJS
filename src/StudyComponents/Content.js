@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import Counter from "./Counter";
 import Resize from "./Resize";
 
 const tabs = ["posts", "comments", "albums"];
@@ -82,6 +83,7 @@ function Content() {
         </button>
       )}
       <Resize />
+      <Counter />
     </div>
   );
 }
