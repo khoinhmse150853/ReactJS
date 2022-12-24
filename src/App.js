@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Content from "./Content";
 
 // const orders = [100, 200, 300];
 
@@ -26,10 +27,16 @@ function App() {
     });
   };
 
+  const [show, setShow] = useState(false);
+
   return (
     <div className="App">
       <h1>{JSON.stringify(info)}</h1>
       <button onClick={handleUpdate}>Increase</button>
+      <div>
+        <button onClick={() => setShow(!show)}>Toggle</button>
+        {show && <Content />}
+      </div>
     </div>
   );
 }
