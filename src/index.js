@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import RandomGift from "./RandomGift";
+import RandomGift from "./StudyComponents/RandomGift";
 // import TwoWayBinding from "./TwoWayBinding";
 // import RadioButton from "./RadioButton";
 // import Checkbox from "./Checkbox";
-import TodoList from "./TodoList";
+import TodoList from "./StudyComponents/TodoList";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

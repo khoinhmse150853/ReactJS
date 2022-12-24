@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Content from "./Content";
+import Content from "./StudyComponents/Content";
 
 // const orders = [100, 200, 300];
 
