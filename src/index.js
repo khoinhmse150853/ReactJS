@@ -1,25 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import AppDemo from "./AppDemo";
 import "./index.css";
-import App from "./App";
-import RandomGift from "./StudyComponents/RandomGift";
-// import TwoWayBinding from "./TwoWayBinding";
-// import RadioButton from "./RadioButton";
-// import Checkbox from "./Checkbox";
-import TodoList from "./StudyComponents/TodoList";
 import reportWebVitals from "./reportWebVitals";
-import PreviewAvatar from "./StudyComponents/PreviewAvatar";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
-    <App />
-    <RandomGift />
-    {/* <TwoWayBinding /> */}
-    {/* <RadioButton /> */}
-    {/* <Checkbox /> */}
-    <TodoList />
-    <PreviewAvatar />
+    <AppDemo />
   </>
 );
 
